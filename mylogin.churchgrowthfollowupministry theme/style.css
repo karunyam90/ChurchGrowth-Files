@@ -1,0 +1,87 @@
+/*
+ Theme Name:   nevochild
+ Description:  A Neve child theme 
+ Author:       Karunya Daniel
+ Template:     neve
+ Version:      1.0.0
+*/
+ 
+@import url("../neve/style.css");
+.space{
+    margin-top:20px;
+}
+
+.user-form{
+    width:60%;
+    margin: auto;
+    background-color:lightblue;
+    box-shadow: 0 3px 3px 3px rgba(34, 94, 191, 0.6);
+    border-radius:4px;  
+    padding:30px;
+} 
+.form-container{
+    margin-bottom:none;
+    text-align:center;   
+}
+.formcontrol {
+
+	position: relative;
+}
+.formcontrol input:focus {
+	outline: 0;
+	border-color: #777;
+}
+
+.formcontrol .success input {
+	border-color: #2ecc71;
+}
+.formcontrol .error input {
+	border-color: #e74c3c;
+}
+
+.formcontrol i {
+	visibility: hidden;
+	position: absolute;
+	top: 45px;
+	right: 90px;
+}
+
+.formcontrol .success i.fa-check-circle {
+	color: #2ecc71;
+	visibility: visible;
+}
+
+.formcontrol .error i.fa-exclamation-circle {
+	color: #e74c3c;
+	visibility: visible;
+}
+
+.formcontrol small {
+	color: #e74c3c;
+	position: absolute;
+	bottom: 21px;
+	visibility: hidden;
+}
+
+.formcontrol .error small {
+	visibility: visible;
+}
+
+.form button {
+	background-color: #8e44ad;
+	border: 2px solid #8e44ad;
+	border-radius: 4px;
+	color: #fff;
+	display: block;
+	font-family: inherit;
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	width: 100%;
+}
+
+
+
+
+
+

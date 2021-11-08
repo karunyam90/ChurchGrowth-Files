@@ -1,0 +1,2 @@
+These plugin were developed based on restrict content pro basic level plugin and to edit rcp plugins.
+Restrict content pro is active in the wordpress 

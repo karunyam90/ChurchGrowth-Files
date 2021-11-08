@@ -1,0 +1,20 @@
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1636277939563",
+    "Statement": [
+        {
+            "Sid": "Stmt1636277935676",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "*"
+            },
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::sampleonekarunya/*",
+            "Condition": {
+                "StringLike": {
+                    "aws:Referer": "https://videos.churchgrowthfollowupministry.org/*"
+                }
+            }
+        }
+    ]
+}
